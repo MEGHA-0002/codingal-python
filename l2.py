@@ -1,37 +1,32 @@
-#Print a Sentence 
-print("Welcome to the world of programming!")
+# ==========================================
+# Lesson 2 - Activity 1: User Input
+# ==========================================
 
-#Print a Number
-print(4)
+name = input("Enter your name: ")
 
-#Next Line after print
-print("Hello Python \n")
-
-#Pass multiple arguments for printing
-print("hello",5)
-
-#End argument of Print Statement
-print("welcome to ", end= "*")
+print("\nHello", name)
+print("Welcome to Codingal")
 
 
-#Understanding the variables
-# Creating different variables
+# ==========================================
+# Lesson 2 - Activity 2: Understanding Variables
+# ==========================================
+
 x = 5
 y = "John"
+
 print(x)
 print(y)
 
-codingal = "codingal"
+codingal = "Codingal"
 print(codingal)
 
-# User Input
-name = input("enter your name: ")
 
-print("\nHello", name, "\nwelcome to codingal")
+# ==========================================
+# Lesson 2 - Activity 3: Python Keywords
+# ==========================================
 
-#Keywords
 import keyword
 
-# print all the Python keywords
-print("Python keywords are...\n")
+print("Python keywords are:\n")
 print(keyword.kwlist)

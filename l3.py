@@ -1,54 +1,75 @@
-#Data types
-# Let's check the datatype of different values
+# ==========================================
+# Lesson 3 - Data Types and Type Casting
+# ==========================================
+
+# ==========================================
+# Activity 1: Data Types
+# ==========================================
+
+# Let's check the data type of different values
+
 a = 5
-print("type of a: ", type(a))
+print("Type of a:", type(a))
 
-b=2.5
-print("type of b: ", type(b))
+b = 2.5
+print("Type of b:", type(b))
 
-c= "coding"
-print("type of c: ", type(c))
+c = "coding"
+print("Type of c:", type(c))
 
-d= True
-print("type of d: ", type(d))
+d = True
+print("Type of d:", type(d))
 
-#
-#typecasting
-# Assigning Different Variables
+
+# ==========================================
+# Activity 2: Type Casting
+# ==========================================
+
+# Assigning different variables
+
 name = "Penguin"
 age = 15
 is_student = True
 weight = 38.5
 
-# Printing Different Variables and their Data Type
-print("Name :", name)
+# Printing variables and their data types
+
+print("\nName:", name)
 print("Data Type of Name is", type(name))
 
-print("Age :", age)
+print("Age:", age)
 print("Data Type of Age is", type(age))
 
-print("is_student :", is_student)
-print("Data Type of is_student is", type(is_student))
+print("Is Student:", is_student)
+print("Data Type of Is Student is", type(is_student))
 
-print("Weight :", weight)
-print("Data Type of weight is", type(weight))
+print("Weight:", weight)
+print("Data Type of Weight is", type(weight))
 
-# Type casting to convert the datatype of variables
-print("\n After Type Casting....")
+# Type Casting
+
+print("\nAfter Type Casting...")
+
 age = str(age)
 print(age)
-print("Data Type of age is", type(age))
+print("Data Type of Age is", type(age))
+
 weight = int(weight)
 print(weight)
 print("Data Type of Weight is", type(weight))
-#string operation
-#input a word
-text = str(input("Enter a string: "))
 
-# Reverse String 
-# using step value as -1 to iterate in reverse
-revText = text[::-1] 
-text = revText
 
-print("Reverse of Given String is:")
-print(text)
+# ==========================================
+# Activity 3: String Operations
+# ==========================================
+
+# Input a string
+
+text = input("\nEnter a string: ")
+
+# Reverse the string
+
+reversed_text = text[::-1]
+
+print("Reverse of the given string is:")
+print(reversed_text)

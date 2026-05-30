@@ -1,49 +1,67 @@
-#average
-# Storing Values
+# ==========================================
+# Lesson 4 - Calculations in Python
+# ==========================================
+
+# ==========================================
+# Activity 1: Average Calculation
+# ==========================================
+
+# Storing values
+
 tree1 = 98
 tree2 = 94
 tree3 = 41
 tree4 = 95
 tree5 = 11
 
-# Finding the total of trees
-sum = tree1+tree2+tree3+tree4+tree5
-print("the sum of all the 5 trees is: ", sum)
+# Finding the total
 
-# Finding the average of trees
-average = sum/5
-print("the average of all the tree is :", average)
+total = tree1 + tree2 + tree3 + tree4 + tree5
+print("The sum of all 5 trees is:", total)
 
+# Finding the average
 
-#count notes
-# Taking total amount as input from user
-Amount =int(input("Please Enter Amount for Withdraw :"))
-
-# Calculating the number of notes of different denominations
-note_1 = Amount//100
-note_2 = (Amount%100)//50
-note_3 = ((Amount%100)%50)//10
+average = total / 5
+print("The average of all 5 trees is:", average)
 
 
-print( "notes of 100 rupee" , note_1)
-print("notes of 50 rupee" , note_2)
-print("notes of 10 rupee" , note_3)
+# ==========================================
+# Activity 2: Count Currency Notes
+# ==========================================
+
+# Taking amount as input from the user
+
+amount = int(input("\nPlease Enter Amount for Withdrawal: "))
+
+# Calculating notes
+
+note_100 = amount // 100
+note_50 = (amount % 100) // 50
+note_10 = ((amount % 100) % 50) // 10
+
+print("Notes of 100 Rupees:", note_100)
+print("Notes of 50 Rupees:", note_50)
+print("Notes of 10 Rupees:", note_10)
 
 
-##percentage calc
-# take marks as input from user
-print("Enter Marks Obtained in 4 Subjects: ")
-math = int(input("maths :"))
-english = int(input("english :"))
-science = int(input("science :"))
-hindi = int(input("hindi :"))
+# ==========================================
+# Activity 3: Percentage Calculator
+# ==========================================
 
-# Let's calculate the percentage of marks
-sum = math+english+science+hindi
-print("sum of math,english,science and hindi = ",sum)
+print("\nEnter Marks Obtained in 4 Subjects:")
 
-perc = (sum/400)*100
+math = int(input("Maths: "))
+english = int(input("English: "))
+science = int(input("Science: "))
+hindi = int(input("Hindi: "))
 
-print(end="Percentage Mark = ")
-print(perc)
+# Calculating total marks
 
+total_marks = math + english + science + hindi
+print("Total Marks =", total_marks)
+
+# Calculating percentage
+
+percentage = (total_marks / 400) * 100
+
+print("Percentage Marks =", percentage)

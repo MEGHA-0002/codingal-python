@@ -1,11 +1,12 @@
+# Lesson 1 - Activity 1: Introducing the print() Statement
+
 # Printing a greeting message
-print("Hello, world!")
+print("Hello, World!")
 
 # Printing my name
 print("My name is Alex.")
 
 # Printing a fun fact about myself
-# print("I love playing soccer.")
 print("I love playing soccer.")
 
 # Performing and printing a simple calculation
