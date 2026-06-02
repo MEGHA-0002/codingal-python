@@ -1,13 +1,18 @@
-# Lesson 1 - Activity 1: Introducing the print() Statement
+# # Lesson 1 - Activity 1: Introducing the print() Statement
 
-# Printing a greeting message
-print("Hello, World!")
+# # Printing a greeting message
+# print("Hello, World!")
 
-# Printing my name
-print("My name is Alex.")
+# # Printing my name
+# print("My name is Alex.")
 
-# Printing a fun fact about myself
-print("I love playing soccer.")
+# # Printing a fun fact about myself
+# print("I love playing soccer.")
 
-# Performing and printing a simple calculation
-print("The result of 3 + 5 is:", 3 + 5)
+# # Performing and printing a simple calculation
+# print("The result of 3 + 5 is:", 3 + 5)
+
+
+
+# printimg sum of two numbers
+print("the sum of 3 and 7 ",3+7)
